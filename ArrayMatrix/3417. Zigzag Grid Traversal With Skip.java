@@ -1,5 +1,5 @@
 3417. Zigzag Grid Traversal With Skip
-https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/
+<a href="https://leetcode.com/problems/zigzag-grid-traversal-with-skip/description/"></a>
 
 You are given an m x n 2D array grid of positive integers.
 Your task is to traverse grid in a zigzag pattern while skipping every alternate cell.
