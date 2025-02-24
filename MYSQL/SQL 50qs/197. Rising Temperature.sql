@@ -13,7 +13,7 @@ id is the column with unique values for this table.
 There are no different rows with the same recordDate.
 This table contains information about the temperature on a certain day.
  
-Write a solution to find all dates' id with higher temperatures compared to its previous dates (yesterday).
+Write a solution to find all dates id with higher temperatures compared to its previous dates (yesterday).
 Return the result table in any order.
 The result format is in the following example.
 
@@ -44,7 +44,7 @@ solutions:=
   
 -- inner join is used to calculate within itself the table
 SELECT tod.id
-FROM Weather yes INNER JOIN Weather tod ON DATEDIFF(tod.recordDate,yes.recordDate) = 1  //date diff should be 1 yesterday and today
+FROM Weather yes INNER JOIN Weather tod ON DATEDIFF(tod.recordDate,yes.recordDate) = 1  --//date diff should be 1 yesterday and today
 WHERE tod.temperature > yes.temperature
 
        (OR)
