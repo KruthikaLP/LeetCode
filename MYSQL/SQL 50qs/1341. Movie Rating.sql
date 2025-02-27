@@ -32,7 +32,7 @@ Table: MovieRating
 +---------------+---------+
 (movie_id, user_id) is the primary key (column with unique values) for this table.
 This table contains the rating of a movie by a user in their review.
-created_at is the user's review date. 
+created_at is the users review date. 
  
 Write a solution to:
 Find the name of the user who has rated the greatest number of movies. In case of a tie, return the lexicographically smaller user name.
