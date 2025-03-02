@@ -72,3 +72,13 @@ class Solution {
         return result;
     }
 }
+
+ // int[][] result = new int[map.size()][2];map.size()
+
+// Gives the number of unique IDs in the TreeMap.
+// This is the number of rows in the result array.
+// [2]
+
+// Each row contains two values:
+// Column 0 → ID
+// Column 1 → Sum of values
